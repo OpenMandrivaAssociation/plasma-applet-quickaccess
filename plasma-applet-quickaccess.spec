@@ -8,7 +8,7 @@ Group: 		Graphical desktop/KDE
 Url: 		http://www.kde-look.org/content/show.php/QuickAccess?content=84128
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: 	kdebase4-devel >= 4.0.70
-BuildRequires:	kdebase4-workspace-devel >= 4.0.70
+BuildRequires:	plasma-devel >= 4.0.70
 Requires:	konqueror >= 4.0.70
 
 %description 
