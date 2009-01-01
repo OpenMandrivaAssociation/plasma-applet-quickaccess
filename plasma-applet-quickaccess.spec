@@ -1,8 +1,9 @@
 Summary:	Quick access the most used folders
 Name:		plasma-applet-quickaccess
 Version: 	0.7.1
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 Source0: 	http://www.kde-look.org/CONTENT/content-files/84128-quickaccess-%{version}.tar.gz
+Patch0:     quickaccess-0.7.1-fix-kde42-api.patch
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
 Url: 		http://www.kde-look.org/content/show.php/QuickAccess?content=84128
@@ -23,6 +24,7 @@ This is a small applet designed for the panel to have quick access to the most u
 
 %prep
 %setup -q -n quickaccess-%version
+%patch0 -p1
 
 %build
 %cmake_kde4
