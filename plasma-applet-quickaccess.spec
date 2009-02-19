@@ -1,7 +1,7 @@
 Summary:	Quick access the most used folders
 Name:		plasma-applet-quickaccess
 Version: 	0.7.1
-Release: 	%mkrel 2
+Release: 	%mkrel 3
 Source0: 	http://www.kde-look.org/CONTENT/content-files/84128-quickaccess-%{version}.tar.gz
 Patch0:     quickaccess-0.7.1-fix-kde42-api.patch
 License: 	GPLv2+
