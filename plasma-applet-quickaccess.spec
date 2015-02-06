@@ -3,7 +3,7 @@
 Summary:	Quick access the most used folders
 Name:		plasma-applet-quickaccess
 Version:	0.8.2
-Release:	1
+Release:	2
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
 Url:		http://kde-look.org/content/show.php?content=134442
