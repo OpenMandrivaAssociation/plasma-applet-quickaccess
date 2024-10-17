@@ -6,7 +6,7 @@ Version:	0.8.2
 Release:	2
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
-Url:		http://kde-look.org/content/show.php?content=134442
+Url:		https://kde-look.org/content/show.php?content=134442
 Source0:	http://kde-look.org/CONTENT/content-files/134442-%{oname}-%{version}-2.zip
 BuildRequires:	kdebase4-devel
 BuildRequires:	kdebase4-workspace-devel
